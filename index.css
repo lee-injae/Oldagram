@@ -1,0 +1,73 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    width: 375px;
+    height: 545px;
+    /* border: magenta 2px solid; */
+
+}
+
+/* Typography */
+
+.accent-text {
+    font-weight: 700;
+}
+
+/* Layout */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding: 10px;
+    border-bottom: #c4c4c4 solid 1px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;    
+}
+
+.avatar-info {
+    margin: auto 0;
+    margin-left: 5px;
+}
+
+.footer {
+    margin: 10px;
+}
+
+.like-count,
+.comment {
+    margin-top: 5px;
+}
+
+/* img */
+
+.your-avatar,
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+}
+
+.your-avatar {    
+    margin: auto 0; 
+}
+
+.post-img {
+    width: 375px;
+    height: 375px;
+}
+
+.icons img{
+    width: 34px; 
+    margin-right: 10px;
+}
+
+
+
+
